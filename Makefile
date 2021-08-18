@@ -12,7 +12,7 @@ SYSTEM_ARCH := $(shell uname -m | sed -e 's/aarch64.*/arm64/' -e 's/x86_64.*/amd
 # Default ARCH to the architecture of this machines (as horizon/golang describes it)
 export ARCH ?= $(shell hzn architecture)
 
-DOCKER_IMAGE_BASE ?= iportilla/image.demo-mms
+DOCKER_IMAGE_BASE ?= dcavanau/image.demo-mms
 SERVICE_NAME ?=image.demo-mms
 SERVICE_VERSION ?=1.0.0
 PORT_NUM ?=9080
