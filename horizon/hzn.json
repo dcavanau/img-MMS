@@ -1,7 +1,7 @@
 {
     "HZN_ORG_ID": "itg",
     "MetadataVars": {
-        "DOCKER_IMAGE_BASE": "dcavanau/image.demo-mms",
+        "DOCKER_IMAGE_BASE": "dcavanau/image.demo-mms_amd64",
         "SERVICE_NAME": "image.demo-mms",
         "SERVICE_VERSION": "1.0.0"
     }
